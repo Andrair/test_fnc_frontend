@@ -1,30 +1,16 @@
-# Test de ingreso para TitaMedia by Andrés Rairán
+# Test de FrontEnd para FNC by Andrés Rairán
 
-Aplicación desplegada en [https://titamediatestandresrairan.netlify.app](https://titamediatestandresrairan.netlify.app/) \
+Aplicación desplegada en [Este Link](https://64b128e88e0e0a046d784513--lambent-pika-c4ec1f.netlify.app/) \
 En su defecto ejecutarla de forma local por el puerto 3000 [http://localhost:3000](http://localhost:3000) 
 
-## Disponibilidad del codigo
+## Aclaraciones
 
-Este proyecto esta actualmente de forma publica por un tiempo en https://github.com/Andrair/test-titamedia-andres-rairan \
-Se uso React con Typescript y Redux \
-Login de Google
+Se uso React con Typescript, Javascript y Redux - Thunk \
 
-### `ACLARACIONES PERSONALES`
-
-* Lo desarrollado aca, contempla algunos aspectos de la prueba, como el uso de redux, atomic design, hooks y la no utilizacion de ningun framework de css-☹☹☹ (Siempre uso styled-components o MaterialUi)
-
-* Para complementar si desean revisar otros proyectos sencillos que tengo en \
-[MI GITHUB](https://github.com/Andrair) \
-como por ejemplo estos desplegados  \
-https://breakingbadar.netlify.app \
-https://cuentatienda.herokuapp.com  <=== Hecho con Graphql, (Querys y Mutations) hace mas de año y medio.  
-https://tareasappar.netlify.app \
-https://cvandresrairan.netlify.app/ <=== CV Desactualizado hace mas de un año y medio
-
-**Nota: Este y otros repositorios solo duraran una semana publicos**
-
+Esta SPA consume una api de nodeJs que para propositos de la prueba deberia ejecutarse desde un docker por el puerto http://localhost:4000 
+que este a su vez consume una base de datos de mysql de una imagen personalizada de docker.
 
 ### Cualquier duda
 rairanandres@gmail.com
 
-**23-Noviembre-2021 Bogota COL**
+**14-Julio-2023 Bogota COL**
