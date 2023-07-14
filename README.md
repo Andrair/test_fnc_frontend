@@ -7,8 +7,7 @@ En su defecto ejecutarla de forma local por el puerto 3000 [http://localhost:300
 
 Se uso React con Typescript, Javascript y Redux - Thunk \
 
-Esta SPA consume una api de nodeJs que para propositos de la prueba deberia ejecutarse desde un docker por el puerto http://localhost:4000 
-que este a su vez consume una base de datos de mysql de una imagen personalizada de docker.
+Esta SPA consume una [api de nodeJs](https://github.com/Andrair/test_fnc_backend) que para propositos de la prueba deberia ejecutarse desde un docker por el puerto http://localhost:4000 que este a su vez consume una base de datos de mysql de una imagen personalizada de docker.
 
 ### Cualquier duda
 rairanandres@gmail.com
