@@ -1,0 +1,34 @@
+.Container-cardPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+    background: #fff;
+}
+.ContentPost-cardPost{
+    display: flex;
+    margin: 0.5em;
+}
+.BoxImage-cardPost{
+    display: flex;
+}
+.BoxPost-cardPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+.BoxPostImage-cardPost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.ContentUser-cardPost{
+    display: flex;
+    justify-content: flex-start;
+}

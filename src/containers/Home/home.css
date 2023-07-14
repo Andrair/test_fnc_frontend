@@ -1,0 +1,60 @@
+.Container {
+    display: grid;
+    grid-template-columns: fit-content(100%) repeat(11, 1fr);
+    grid-template-rows: fit-content(100%) repeat(9, 1fr);
+    height: 100vh;
+    box-sizing: border-box;
+    background: #fafafa;
+}
+
+.Content{
+    display: flex;
+    grid-column: 1 / 13;
+    grid-row: 2 / 11;
+    padding: 0.5em;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.ContentScroll{
+    width: 100%;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px 0.5px rgba(0, 0, 0, 0.25);
+    padding: 1em 2em;
+}
+
+.ContentScroll::-webkit-scrollbar {
+    background: white;
+    border-radius: 10px;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+}
+.ContentScroll::-webkit-scrollbar-thumb {
+    background: rgba(5, 21, 63, 0.5);
+    border-radius: 10px;
+}
+.ContentScroll::-webkit-scrollbar-button {
+    background: white;
+    border-radius: 10px;
+}
+
+
+@media  (min-width: 300px) and (max-width: 425px) {
+    .Container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .Content{
+        grid-column: 1 / 5;
+        grid-row: 2 / 11;
+        margin-top: 1em;
+        padding: 0.1em;
+    }
+}
+
